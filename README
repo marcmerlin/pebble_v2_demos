@@ -1,0 +1,13 @@
+There are various Demos/test code I used while writing my Aiko Pebble V2 code  ( https://github.com/marcmerlin/aiko_pebble_v2 and http://marc.merlins.org/perso/arduino/post_2012-01-24_Much-Improved-Pebble-v2-Aiko-Demo-Code.html ).
+
+- Full_LiquidCrytal_Demo
+This is my NewLiquidCrystal demo code writing for the 20x4 LCD on the Pebble V2.
+
+- InterruptEncoder_test
+This is the standalone/debug interrupt code I used to test the rotary button interrupt code.
+
+- LCD3WireExample.pde
+This allows using the deprecated http://arduino.cc/playground/Code/LCD3wires library with the Pebble v2 (this was just to try it out, there is no reason to use this library, you should be using NewLiquidCrystal's LiquidCrystal_SR_LCD3 library instead: http://marc.merlins.org/perso/arduino/post_2012-01-23_LiquidCrystal-driver-support-LCD3Wire-hardware-_pebble-and-others_.html )
+
+- performanceLCD
+This is a port of Fernando's LCD example for Pebble v2
